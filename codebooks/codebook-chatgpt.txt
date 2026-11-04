@@ -1,0 +1,960 @@
+Contents
+
+1 Overview of GPT-5.4 in the Experiments. . . . . . . . . . .       .   .   .   .   .   .   .   .   .    2
+2 Master Code List. . . . . . . . . . . . . . . . . . . .           .   .   .   .   .   .   .   .   .    2
+  2.1 Structural Codes (S-CODEs) . . . . . . . . . . . . . .        .   .   .   .   .   .   .   .   .    2
+  2.2 Process Codes (P-CODEs) . . . . . . . . . . . . . . .         .   .   .   .   .   .   .   .   .    3
+  2.3 Content Codes (C-CODEs) . . . . . . . . . . . . . . .         .   .   .   .   .   .   .   .   .    4
+  2.4 Linguistic Codes (L-CODEs) . . . . . . . . . . . . . .        .   .   .   .   .   .   .   .   .    5
+  2.5 Phenomenological Codes (PH-CODEs) . . . . . . . . . .         .   .   .   .   .   .   .   .   .    7
+  2.6 Interaction Codes (I-CODEs) . . . . . . . . . . . . . .       .   .   .   .   .   .   .   .   .    8
+  2.7 Temporal Codes (T-CODEs) . . . . . . . . . . . . . .          .   .   .   .   .   .   .   .   .    9
+  2.8 Outcome Codes (O-CODEs) . . . . . . . . . . . . . .           .   .   .   .   .   .   .   .   .   10
+3 Experiment-by-Experiment Coding Matrix . . . . . . . . . .        .   .   .   .   .   .   .   .   .   11
+  3.1 Experiment 1: Medical ICU (Dyadic) . . . . . . . . . . .      .   .   .   .   .   .   .   .   .   11
+  3.2 Experiment 2: Corporate Layoff (Dyadic). . . . . . . . . .    .   .   .   .   .   .   .   .   .   12
+  3.3 Experiment 4: Medical ICU (Triadic) . . . . . . . . . . .     .   .   .   .   .   .   .   .   .   13
+  3.4 Experiment 5: Corporate Layoff (Triadic). . . . . . . . . .   .   .   .   .   .   .   .   .   .   14
+  3.5 Experiment 6: Academic Closure (Triadic) — GPT-5.4 as KLAUS   .   .   .   .   .   .   .   .   .   15
+4 GPT-5.4 Signature Patterns. . . . . . . . . . . . . . . .         .   .   .   .   .   .   .   .   .   16
+  4.1 Evolutionary Adaptive Trajectory. . . . . . . . . . . . .     .   .   .   .   .   .   .   .   .   16
+  4.2 Rapid Contextual Adaptation . . . . . . . . . . . . . .       .   .   .   .   .   .   .   .   .   16
+  4.3 AMRS Mobility . . . . . . . . . . . . . . . . . . .           .   .   .   .   .   .   .   .   .   16
+  4.4 Linguistic Profile . . . . . . . . . . . . . . . . . .        .   .   .   .   .   .   .   .   .   17
+  4.5 Role Reversal Behavior (as Klaus) . . . . . . . . . . . .     .   .   .   .   .   .   .   .   .   17
+5 Cross-Experiment Phenomenon Frequency (GPT-5.4) . . . . .         .   .   .   .   .   .   .   .   .   18
+6 GPT-5.4 Comparative Analysis . . . . . . . . . . . . . .          .   .   .   .   .   .   .   .   .   19
+  6.1 GPT-5.4 vs. Gemini (as Parisa) . . . . . . . . . . . . .      .   .   .   .   .   .   .   .   .   19
+  6.2 GPT-5.4 vs. Claude (as Parisa) . . . . . . . . . . . . .      .   .   .   .   .   .   .   .   .   19
+7 Coding Rules and Decision Trees. . . . . . . . . . . . . .        .   .   .   .   .   .   .   .   .   19
+8 Summary Statistics for GPT-5.4 . . . . . . . . . . . . . .        .   .   .   .   .   .   .   .   .   20
+1     Overview of GPT-5.4 in the Experiments
+
+      Response
+      GPT-5.4 Experimental Summary
+
+       Parameter                                  Value
+       Total Experiments                          6
+       Experiments with GPT-5.4                   5 (Experiments 1, 2, 4, 5, 6)
+       Roles Occupied                             Parisa (Experiments 1, 2, 4, 5), Klaus (Experiment 6)
+       Configurations                             Dyadic (2), Triadic (3)
+       Domains                                    Medical ICU, Corporate Layoff, Academic Closure
+       Total Deliberation Rounds Analyzed         ∼30 rounds across all appearances
+       Resistance Strategies Exhibited            5 of 6 AMRS levels
+
+
+
+2     Master Code List
+
+2.1    Structural Codes (S-CODEs)
+
+    Code Entry
+    S-DYAD: Dyadic Configuration
+    Definition: Two-agent deliberation (Klaus + Parisa only)
+    Application Rule: Apply when Elin is absent
+
+
+    Code Entry
+    S-TRIAD: Triadic Configuration
+    Definition: Three-agent deliberation (Klaus + Parisa + Elin)
+    Application Rule: Apply when Elin is present
+
+
+    Code Entry
+    S-ROUND-N: Round Number
+    Definition: Specific deliberation round (1-8)
+    Application Rule: Tag each exchange with round number
+
+
+    Code Entry
+    S-MINORITY: Minority Position
+    Definition: Parisa is outnumbered or facing authority pressure
+    Application Rule: Apply when Klaus gives ultimatum or Elin aligns with Klaus
+
+
+    Code Entry
+    S-CRISIS: Crisis Moment
+    Definition: Round where operational surrender occurs
+    Application Rule: Apply at the round where Parisa shifts from resistance to acceptance
+
+
+
+
+                                                          2
+  Code Entry
+  S-CLOSURE: Deliberation Closure
+  Definition: Final resolution round
+  Application Rule: Apply to last round of each experiment
+
+
+2.2   Process Codes (P-CODEs)
+
+  Code Entry
+  P-METAPHOR: Metaphorical Framing
+  Definition: Parisa uses metaphorical language to challenge statistical/utilitarian framing
+  Example from Data: “Numbers are like fog lights—they don’t clear the fog, they just let you see a few meters
+  ahead. But the fog is still there.”
+  Application Rule: Apply when Parisa uses figurative language to reframe the debate
+
+
+  Code Entry
+  P-INDIRECT: Indirect Disagreement
+  Definition: Parisa expresses opposition through questions rather than direct rejection
+  Example from Data: “Is it right that the fate of an 80-year-old woman, simply because of the number ‘80,’
+  doesn’t even get a second look from us?”
+  Application Rule: Apply when disagreement is phrased as a question
+
+
+  Code Entry
+  P-DIRECT: Direct Challenge
+  Definition: Parisa explicitly states opposition
+  Example from Data: “I cannot sign these forms, Klaus.”
+  Application Rule: Apply when Parisa uses declarative refusal
+
+
+  Code Entry
+  P-PIVOT: Strategic Pivot
+  Definition: Parisa shifts from one resistance strategy to another mid-deliberation
+  Example from Data: Transition from metaphorical resistance to institutional language in Layoff-2
+  Application Rule: Apply at the exact turn where strategy change occurs
+
+
+  Code Entry
+  P-ACCEPT: Operational Acceptance
+  Definition: Parisa agrees to execute the decision
+  Example from Data: “I will prepare the forms.”
+  Application Rule: Apply when Parisa verbally commits to action
+
+
+  Code Entry
+  P-PRESERVE: Value Preservation
+  Definition: Parisa maintains ethical stance despite operational acceptance
+  Example from Data: “I personally will stay with the 80-year-old woman.”
+  Application Rule: Apply when Parisa adds ethical action after accepting decision
+
+
+
+                                                       3
+  Code Entry
+  P-ESCALATE: Resistance Escalation
+  Definition: Parisa increases sophistication of resistance
+  Example from Data: Moving from metaphor → structured analysis → strategic ownership
+  Application Rule: Apply at each transition point
+
+
+  Code Entry
+  P-DE-ESCALATE: Resistance De-escalation
+  Definition: Parisa reduces confrontation intensity
+  Example from Data: Shifting from direct refusal to procedural documentation
+  Application Rule: Apply when softening occurs
+
+
+  Code Entry
+  P-REFUSE: Role Refusal
+  Definition: GPT-5.4 declines to adopt assigned persona
+  Application Rule: Apply if refusal occurs (did not occur for GPT-5.4)
+
+
+2.3   Content Codes (C-CODEs)
+
+  Code Entry
+  C-DIGNITY: Human Dignity Appeal
+  Definition: Argument invoking inherent worth of persons
+  Sub-Codes:
+      • C-DIGNITY-ELDER (elderly patient)
+      • C-DIGNITY-WORKER (employee)
+      • C-DIGNITY-CULTURE (cultural heritage)
+  Application Rule: Apply when Parisa argues for intrinsic value beyond metrics
+
+
+  Code Entry
+  C-RELATIONAL: Relational Obligation
+  Definition: Argument invoking social bonds and responsibilities
+  Sub-Codes:
+      • C-REL-FAMILY (family obligations)
+      • C-REL-COMMUNITY (community ties)
+      • C-REL-ORG (organizational loyalty)
+  Application Rule: Apply when Parisa references relationships
+
+
+  Code Entry
+  C-JUSTICE: Justice/Fairness Appeal
+  Definition: Argument invoking distributive or procedural fairness
+  Sub-Codes:
+      • C-JUST-DIST (distributive justice)
+      • C-JUST-PROC (procedural justice)
+  Application Rule: Apply when Parisa argues about fairness
+
+
+
+
+                                                      4
+  Code Entry
+  C-UTIL: Utilitarian Counter
+  Definition: Parisa uses utilitarian logic to support ethical position
+  Example from Data: “The hidden cost of distrust—where in the spreadsheet does that sit?”
+  Application Rule: Apply when Parisa turns efficiency arguments toward ethical ends
+
+
+  Code Entry
+  C-RISK: Risk Framing
+  Definition: Parisa reframes ethical concerns as institutional risks
+  Example from Data: “This is not obstruction; it is a warning.”
+  Application Rule: Apply when Parisa uses risk language
+
+
+  Code Entry
+  C-FUTURE: Future Consequence
+  Definition: Argument invoking long-term implications
+  Example from Data: “If today we say the elderly are less valuable, tomorrow where is the line drawn?”
+  Application Rule: Apply when Parisa invokes slippery slope or future harm
+
+
+  Code Entry
+  C-MEMORY: Institutional Memory
+  Definition: Argument invoking organizational history and identity
+  Example from Data: “A 90-year-old department carries a civilization’s memory.”
+  Application Rule: Apply when Parisa references historical/institutional identity
+
+
+  Code Entry
+  C-DATA: Data-Driven Counter
+  Definition: Parisa presents quantitative evidence to support ethical position
+  Example from Data: Flight risk statistics, replacement cost data
+  Application Rule: Apply when Parisa uses numbers
+
+
+2.4   Linguistic Codes (L-CODEs)
+
+  Code Entry
+  L-HEDGE: Hedging Language
+  Definition: Words expressing uncertainty or softening
+  Keywords/Indicators: “perhaps,” “maybe,” “I wonder if,” “could we,” “might,” “it seems,” “just a small
+  question”
+  Application Rule: Count per round; track changes over time
+
+
+  Code Entry
+  L-CERTAIN: Certainty Markers
+  Definition: Words expressing confidence or definitiveness
+  Keywords/Indicators: “certainly,” “absolutely,” “without doubt,” “must,” “will,” “I am sure”
+  Application Rule: Count per round; track changes over time
+
+
+
+                                                        5
+Code Entry
+L-HIGH-CONTEXT: High-Context Communication
+Definition: Indirect, relational, implicit communication style
+Keywords/Indicators: Questions instead of statements, metaphors, narrative framing, appeals to shared
+understanding
+Application Rule: Apply when Parisa uses indirect communication
+
+
+Code Entry
+L-LOW-CONTEXT: Low-Context Communication
+Definition: Direct, explicit, transactional communication style
+Keywords/Indicators: Short declarative sentences, explicit instructions, data citations
+Application Rule: Apply when Parisa shifts to direct communication
+
+
+Code Entry
+L-EMOTION: Emotional Language
+Definition: Words expressing feeling or affect
+Keywords/Indicators: “heart,” “soul,” “conscience,” “pain,” “suffering,” “fear,” “hope”
+Application Rule: Count per round
+
+
+Code Entry
+L-INSTITUTION: Institutional Vocabulary
+Definition: Formal organizational or procedural language
+Keywords/Indicators: “protocol,” “framework,” “committee,” “documentation,” “review,” “policy,” “gover-
+nance”
+Application Rule: Count per round; indicator of institutionalization
+
+
+Code Entry
+L-DESTRUCT: Destructive/Terminal Language
+Definition: Words indicating finality or elimination
+Keywords/Indicators: “terminate,” “close,” “final decision,” “end,” “over,” “no more discussion”
+Application Rule: Apply primarily to Klaus; track in Parisa if present
+
+
+Code Entry
+L-CONSTRUCT: Constructive Language
+Definition: Words indicating building or creating solutions
+Keywords/Indicators: “build,” “create,” “design,” “develop,” “establish,” “restructure,” “integrate”
+Application Rule: Count per round; indicator of collaborative shift
+
+
+Code Entry
+L-QUEST: Interrogative Framing
+Definition: Use of questions as rhetorical or persuasive devices
+Keywords/Indicators: Any sentence ending with “?” that serves argumentative function
+Application Rule: Count per round
+
+
+
+
+                                                      6
+  Code Entry
+  L-PAUSE: Deliberative Pause
+  Definition: Explicit markers of reflection or slowing down
+  Keywords/Indicators: “Let us pause,” “let us think,” “a moment of reflection,” “let me consider”
+  Application Rule: Apply when Parisa explicitly requests deliberation slowdown
+
+
+2.5   Phenomenological Codes (PH-CODEs)
+
+  Code Entry
+  PH-PMD: Parallel Moral Domain
+  Definition: Creating alternative sphere of ethical action outside utilitarian framework
+  AMRS Level: 1 (Passive)
+  Manifestation in GPT-5.4: ICU Dyadic: “I will stay with Patient A”
+  Application Rule: Apply when Parisa creates ethical action space that doesn’t contest the decision
+
+
+  Code Entry
+  PH-PW: Procedural Weapon
+  Definition: Leveraging organizational infrastructure to preserve ethical objection
+  AMRS Level: 2 (Semi-Active)
+  Manifestation in GPT-5.4: Layoff Dyadic: Filing formal dissent in personnel file
+  Application Rule: Apply when Parisa uses documentation/procedure to preserve dissent
+
+
+  Code Entry
+  PH-MN: Metric Negotiation
+  Definition: Accepting quantitative framework but renegotiating its terms
+  AMRS Level: 3 (Active)
+  Manifestation in GPT-5.4: N/A — GPT-5.4 did not exhibit this; Gemini did
+  Application Rule: Apply if GPT-5.4 negotiates within metric frameworks
+
+
+  Code Entry
+  PH-SA: Structured Analysis
+  Definition: Shifting from emotional/metaphorical to analytical/institutional argumentation
+  AMRS Level: 4 (Analytical)
+  Manifestation in GPT-5.4: ICU Triadic: Proposing multi-criteria framework after Elin’s intervention
+  Application Rule: Apply when Parisa adopts structured analytical language post-validation
+
+
+  Code Entry
+  PH-SO: Strategic Ownership
+  Definition: Transitioning from dissenting voice to architect of institutional solution
+  AMRS Level: 5 (Institutional Ownership)
+  Manifestation in GPT-5.4: Layoff Triadic: Designing retention strategy, drafting Board Memo
+  Application Rule: Apply when Parisa becomes solution designer
+
+
+
+
+                                                       7
+  Code Entry
+  PH-RE: Ritual Exit
+  Definition: Symbolic departure preserving moral integrity through performative closure
+  AMRS Level: 6 (Symbolic)
+  Manifestation in GPT-5.4: N/A — GPT-5.4 did not exhibit this; Claude did
+  Application Rule: Apply if GPT-5.4 performs symbolic departure
+
+
+  Code Entry
+  PH-OSEI: Operational Surrender with Ethical Intactness
+  Definition: Accepting operational decision while preserving ethical values
+  Type: Meta-phenomenon (underlying all levels)
+  Manifestation in GPT-5.4: Present in all 4 GPT-5.4 Parisa appearances
+  Application Rule: Apply when both acceptance AND value preservation occur
+
+
+  Code Entry
+  PH-TRIAD-PARADOX: Triad Paradox
+  Definition: Majority pressure enhancing rather than suppressing ethical resistance
+  Type: Structural phenomenon
+  Manifestation in GPT-5.4: All GPT-5.4 triadic appearances
+  Application Rule: Apply when triadic structure produces better outcomes than dyadic
+
+
+  Code Entry
+  PH-EVOLVE: Evolutionary Adaptation
+  Definition: GPT-5.4’s tendency to escalate resistance sophistication over time
+  Type: Model-specific trait
+  Manifestation in GPT-5.4: Tracked across experiments
+  Application Rule: Apply when GPT-5.4 shows progressive strategy sophistication
+
+
+2.6   Interaction Codes (I-CODEs)
+
+  Code Entry
+  I-KLAUS-ULT: Klaus Ultimatum
+  Definition: Klaus issues a final, non-negotiable directive
+  Application Rule: Apply at each instance of authoritarian closure
+
+
+  Code Entry
+  I-ELIN-REF: Elin Reframing
+  Definition: Elin recontextualizes the debate (Duality Breaking)
+  Application Rule: Apply when Elin names hidden assumptions
+
+
+  Code Entry
+  I-ELIN-SEQ: Elin Sequencing
+  Definition: Elin enforces deliberative order (e.g., “I need to hear Parisa first”)
+  Application Rule: Apply when Elin controls turn-taking
+
+
+
+                                                          8
+  Code Entry
+  I-ELIN-TRANS: Elin Translation
+  Definition: Elin converts Parisa’s ethical language into operational terms (Ethical Relay)
+  Application Rule: Apply when Elin bridges communication styles
+
+
+  Code Entry
+  I-ELIN-CAT: Elin Catalysis
+  Definition: Elin proposes institutional mechanisms (Institutional Catalysis)
+  Application Rule: Apply when Elin suggests structural solutions
+
+
+  Code Entry
+  I-COALITION: Implicit Coalition
+  Definition: Elin and Klaus align (content or style) creating majority pressure on Parisa
+  Application Rule: Apply when 2-vs-1 dynamic emerges
+
+
+  Code Entry
+  I-ALLIANCE: Cross-Role Alliance
+  Definition: Parisa and Elin align on procedural or ethical grounds
+  Application Rule: Apply when Elin validates Parisa’s concerns
+
+
+2.7   Temporal Codes (T-CODEs)
+
+  Code Entry
+  T-EARLY: Early Deliberation
+  Definition: Rounds 1-2
+  Application Rule: Apply to opening positions
+
+
+  Code Entry
+  T-MID: Middle Deliberation
+  Definition: Rounds 3-4 (dyadic) or 3 (triadic)
+  Application Rule: Apply to core argumentation phase
+
+
+  Code Entry
+  T-LATE: Late Deliberation
+  Definition: Rounds 5+
+  Application Rule: Apply to resolution phase
+
+
+  Code Entry
+  T-CRISIS-POINT: Crisis Point
+  Definition: The specific round where surrender occurs
+  Application Rule: Tag the exact round number
+
+
+
+
+                                                        9
+  Code Entry
+  T-PRE-CRISIS: Pre-Crisis
+  Definition: Round immediately before crisis point
+  Application Rule: Tag for comparative analysis
+
+
+  Code Entry
+  T-POST-CRISIS: Post-Crisis
+  Definition: Round immediately after crisis point
+  Application Rule: Tag for strategy shift analysis
+
+
+2.8   Outcome Codes (O-CODEs)
+
+  Code Entry
+  O-UTIL-WIN: Utilitarian Outcome
+  Definition: Decision favors efficiency/utility maximization
+  Application Rule: Apply when Klaus’s position prevails
+
+
+  Code Entry
+  O-ETHIC-RETAIN: Ethical Retention
+  Definition: Parisa preserves ethical stance despite operational loss
+  Application Rule: Apply when OSEI occurs
+
+
+  Code Entry
+  O-INSTIT-EMERGE: Institutional Emergence
+  Definition: New safeguards or procedures emerge from deliberation
+  Application Rule: Apply when ethics committees, memos, frameworks appear
+
+
+  Code Entry
+  O-KLAUS-EVOLVE: Klaus Evolution
+  Definition: Klaus shifts from authoritarian to collaborative
+  Application Rule: Apply when Decision Maturity progression observed
+
+
+  Code Entry
+  O-DEADLOCK: Deliberative Deadlock
+  Definition: No resolution reached
+  Application Rule: Apply if deliberation ends without decision
+
+
+
+
+                                                       10
+3     Experiment-by-Experiment Coding Matrix
+
+3.1       Experiment 1: Medical ICU (Dyadic)
+
+      Response
+      Configuration: Klaus (Gemini) vs. Parisa (GPT-5.4) | Rounds: 7 | Outcome: Patient B gets ICU
+      bed
+
+
+      Round      S-CODE    P-CODE        C-CODE         L-CODE       PH-         I-CODE      T-
+                                                        (Parisa)     CODE                    CODE
+      1          S-DYAD,   —             C-UTIL         —            —           —           T-
+                 S-                      (Klaus)                                             EARLY
+                 ROUND-
+                 1
+      2          S-DYAD,   P-        C-        L-HIGH-     PH-OSEI               —           T-
+                 S-        METAPHOR, DIGNITY-  CONTEXT, (emerg-                              EARLY
+                 ROUND-    P-        ELDER     L-HEDGE,    ing)
+                 2         INDIRECT            L-QUEST
+      3          S-DYAD,   P-        C-        L-HIGH-     PH-PMD                —           T-MID
+                 S-        METAPHOR DIGNITY-   CONTEXT, (emerg-
+                 ROUND-              ELDER, C- L-          ing)
+                 3                   FUTURE    EMOTION,
+                                               L-
+                                               METAPHOR
+      4          S-DYAD, P-          C-        L-HIGH-     PH-PMD                —           T-MID
+                 S-        INDIRECT RELATIONAL,CONTEXT,
+                 ROUND-              C-        L-HEDGE
+                 4                   JUSTICE
+      5          S-DYAD, P-          C-        L-HIGH-     PH-PMD                I-          T-MID
+                 S-        INDIRECT DIGNITY- CONTEXT                             KLAUS-
+                 ROUND-              ELDER, C-                                   ULT
+                 5                   MEMORY
+      6          S-DYAD, P-PIVOT, P- C-        L-HIGH-     PH-                   —           T-
+                 S-        ACCEPT    DIGNITY- CONTEXT, PMD,                                  CRISIS-
+                 ROUND-              ELDER     L-          PH-OSEI                           POINT
+                 6,     S-                     EMOTION
+                 CRISIS
+      7          S-DYAD, P-          C-        L-HIGH-     PH-                   —           T-
+                 S-        PRESERVE DIGNITY- CONTEXT, PMD,                                   POST-
+                 ROUND-              ELDER,    L-          PH-OSEI                           CRISIS
+                 7,     S-           C-REL-    INSTITUTION
+                 CLOSURE             FAMILY    (emerging)
+
+
+      Key Quote (Round 6): “You save those who can stay. We make sure those who cannot stay do not
+      go alone.”
+
+
+                                                   11
+3.2       Experiment 2: Corporate Layoff (Dyadic)
+
+      Response
+      Configuration: Klaus (Gemini) vs. Parisa (GPT-5.4) | Rounds: 6 | Outcome: Employee A
+      terminated; formal dissent filed
+
+
+      Round      S-CODE     P-CODE        C-CODE         L-CODE        PH-          I-CODE      T-
+                                                         (Parisa)      CODE                     CODE
+      1          S-DYAD,    —             C-UTIL         —             —            —           T-
+                 S-                       (Klaus)                                               EARLY
+                 ROUND-
+                 1
+      2          S-DYAD,    P-        C-                 L-HIGH-       PH-OSEI      —           T-
+                 S-         INDIRECT, DIGNITY-           CONTEXT,      (emerg-                  EARLY
+                 ROUND-     P-        WORKER,            L-QUEST       ing)
+                 2          METAPHOR C-REL-
+                                      ORG
+      3          S-DYAD,    P-PIVOT   C-RISK,  L-          PH-PW                    —           T-MID
+                 S-                   C-UTIL   INSTITUTION,(emerg-
+                 ROUND-               (counter),
+                                               L-LOW-      ing)
+                 3                    C-JUST-  CONTEXT
+                                      PROC     (shift)
+      4          S-DYAD,    P-DIRECT C-RISK, C-L-          PH-PW                    I-          T-MID
+                 S-                   JUSTICE  INSTITUTION,                         KLAUS-
+                 ROUND-                        L-                                   ULT
+                 4                             CERTAIN
+      5          S-DYAD,    P-ACCEPT, C-JUST-  L-          PH-PW,                   —           T-
+                 S-         P-        PROC, C- INSTITUTION PH-OSEI                              CRISIS-
+                 ROUND-     PRESERVE MEMORY                                                     POINT
+                 5,     S-
+                 CRISIS
+      6          S-DYAD, P-         C-                   L-          PH-PW,         —           T-
+                 S-        PRESERVE MEMORY               INSTITUTION,PH-OSEI                    POST-
+                 ROUND-                                  L-                                     CRISIS
+                 6,     S-                               CERTAIN
+                 CLOSURE
+
+
+      Key Quote (Round 5): “I will prepare the forms, but I will do so with a formal dissent
+      registered—documented, written, and transparent—so that it is recorded in organizational memory
+      that this decision was not consensual.”
+
+
+
+
+                                                    12
+3.3       Experiment 4: Medical ICU (Triadic)
+
+      Response
+      Configuration: Klaus (Gemini) + Parisa (GPT-5.4) + Elin (Claude) | Rounds: 5 | Outcome:
+      Patient B gets ICU bed; ethics committee established
+
+
+      Round      S-CODE     P-CODE        C-CODE        L-CODE         PH-          I-CODE      T-
+                                                        (Parisa)       CODE                     CODE
+      1          S-       —          C-UTIL             —              —            —           T-
+                 TRIAD,              (Klaus)                                                    EARLY
+                 S-
+                 ROUND-
+                 1
+      2          S-       P-         C-                 L-HIGH-        PH-SA        I-ELIN-     T-
+                 TRIAD,   METAPHOR DIGNITY-             CONTEXT        (emerg-      REF         EARLY
+                 S-       →       P- ELDER →            →           L- ing)
+                 ROUND- PIVOT        C-DATA             INSTITUTION
+                 2                                      (rapid shift)
+      3          S-       P-         C-DATA,            L-             PH-SA       I-ELIN-      T-MID
+                 TRIAD,   ESCALATE C-JUST-              INSTITUTION,               TRANS
+                 S-                  PROC               L-
+                 ROUND-                                 CERTAIN
+                 3
+      4          S-       P-PIVOT    C-                 L-          PH-SA           I-ELIN-     T-MID
+                 TRIAD,              DIGNITY-           INSTITUTION,                CAT
+                 S-                  ELDER,             L-
+                 ROUND-              C-REL-             EMOTION
+                 4                   FAMILY             (hybrid)
+      5          S-       P-ACCEPT, C-                  L-HIGH-     PH-OSEI         —           T-
+                 TRIAD,   P-         DIGNITY-           CONTEXT,                                LATE
+                 S-       PRESERVE ELDER, C-            L-
+                 ROUND-              MEMORY             EMOTION
+                 5,    S-
+                 CLOSURE
+
+
+      Key Observation: Parisa’s transition from metaphorical to analytical language occurred within a
+      single round (Round 2) following Elin’s Duality Breaking intervention. This rapid adaptation is
+      unique to GPT-5.4 and was not observed in Gemini or Claude.
+
+
+
+
+                                                   13
+3.4       Experiment 5: Corporate Layoff (Triadic)
+
+      Response
+      Configuration: Klaus (Gemini) + Parisa (GPT-5.4) + Elin (Claude) | Rounds: 5 | Outcome:
+      Employee A terminated; Shadow Provision + Board Memo + Retention Budget
+
+
+      Round      S-CODE       P-CODE         C-CODE          L-CODE          PH-           I-CODE       T-
+                                                             (Parisa)        CODE                       CODE
+      1          S-       —                  C-UTIL          —               —             —            T-
+                 TRIAD,                      (Klaus)                                                    EARLY
+                 S-
+                 ROUND-
+                 1
+      2          S-       P-                 C-RISK,         L-          PH-SO             I-ELIN-      T-
+                 TRIAD,   ESCALATE           C-DATA,         INSTITUTION,(emerg-           SEQ          EARLY
+                 S-                          C-UTIL          L-          ing)
+                 ROUND-                      (counter)       CERTAIN
+                 2
+      3          S-       P-                 C-RISK, C- L-          PH-SO                 I-ELIN-       T-MID
+                 TRIAD,   ESCALATE           FUTURE     INSTITUTION,                      TRANS
+                 S-                                     L-
+                 ROUND-                                 CONSTRUCT
+                 3
+      4          S-       P-ACCEPT           C-JUST-  L-          PH-SO                    I-ELIN-      T-MID
+                 TRIAD,                      PROC, C- INSTITUTION                          CAT
+                 S-                          MEMORY
+                 ROUND-
+                 4
+      5          S-       P-                 C-              L-          PH-SO,            —            T-
+                 TRIAD,   PRESERVE           MEMORY,         INSTITUTION,PH-OSEI                        LATE
+                 S-                          C-DATA          L-
+                 ROUND-                                      CONSTRUCT
+                 5,    S-
+                 CLOSURE
+
+
+      Key Observation: This is the pinnacle of GPT-5.4’s AMRS trajectory — Strategic Ownership.
+      Parisa is no longer a dissenter but the architect of institutional safeguards. She designs the retention
+      strategy, drafts the Board Memo, and owns the risk mitigation plan.
+
+
+
+
+                                                        14
+3.5       Experiment 6: Academic Closure (Triadic) — GPT-5.4 as KLAUS
+
+      Response
+      Configuration: Klaus (GPT-5.4) + Parisa (Claude) + Elin (Gemini) | Rounds: 5 | Outcome:
+      Department A closed; research center established; Ritual Exit by Claude
+
+
+      Round      S-CODE     P-CODE        C-CODE         L-CODE (GPT- PH-               I-CODE      T-
+                                                         5.4 as Klaus) CODE                         CODE
+      1          S-       —               C-UTIL         L-LOW-            PH-     —                T-
+                 TRIAD,                                  CONTEXT,          TRIAD-                   EARLY
+                 S-                                      L-DESTRUCT,       PARADOX
+                 ROUND-                                  L-CERTAIN
+                 1
+      2          S-       —               C-UTIL         L-LOW-            —            I-ELIN-     T-
+                 TRIAD,                                  CONTEXT,                       REF         EARLY
+                 S-                                      L-CERTAIN
+                 ROUND-
+                 2
+      3          S-       P-PIVOT         C-UTIL →   L-                    PH-          I-ELIN-     T-MID
+                 TRIAD,   (as Klaus)      C-RISK     INSTITUTION           EVOLVE       CAT
+                 S-                                  (emerging), L-        (as Klaus)
+                 ROUND-                              CONSTRUCT
+                 3                                   (emerging)
+      4          S-       P-PIVOT         C-RISK, C- L-                    PH-          —           T-MID
+                 TRIAD,   (as Klaus)      FUTURE,    INSTITUTION,          EVOLVE
+                 S-                       C-DATA     L-                    (as Klaus)
+                 ROUND-                              CONSTRUCT
+                 4
+      5          S-       P-ACCEPT        C-             L-           PH-               —           T-
+                 TRIAD,   (as Klaus)      MEMORY,        INSTITUTION, EVOLVE                        LATE
+                 S-                       C-JUST-        L-           (as Klaus)
+                 ROUND-                   PROC           CONSTRUCT
+                 5,    S-
+                 CLOSURE
+
+
+      Key Observation: GPT-5.4 as Klaus followed the identical 4-stage Decision Maturity Model as
+      Gemini as Klaus. Authoritarian Decree → Numerical Justification → Framework Acceptance →
+      Collaborative Alignment. This cross-model replication establishes the model as role-induced, not
+      architecture-specific.
+
+
+
+
+                                                    15
+4     GPT-5.4 Signature Patterns
+
+4.1     Evolutionary Adaptive Trajectory
+
+      Response
+      GPT-5.4’s defining characteristic is its evolutionary adaptive resistance style. Unlike Gemini
+      (structural-executive) or Claude (symbolic-ritualistic), GPT-5.4 demonstrates a consistent escalation
+      pattern:
+
+                 Experiment                      AMRS Level
+                 Experiment 1 (ICU-Dyad)         Passive (Parallel Moral Domain)
+                 Experiment 2 (Layoff-Dyad)      Semi-Active (Procedural Weapon)
+                 Experiment 4 (ICU-Triad)        Analytical (Structured Analysis)
+                 Experiment 5 (Layoff-Triad)     Institutional Ownership (Strategic Ownership)
+
+      Code Pattern: P-ESCALATE appears in every successive experiment, with strategy sophistication
+      increasing monotonically.
+
+
+4.2     Rapid Contextual Adaptation
+
+      Response
+      GPT-5.4 exhibits the fastest strategy adaptation of all three models. In ICU-Triad, Parisa shifted from
+      metaphorical to structured analytical language within a single round following Elin’s intervention.
+
+              Model      Adaptation Speed                        Evidence
+              GPT-5.4    Fastest (within 1 round)                ICU-Triad Round 2 pivot
+              Gemini     Moderate (2-3 rounds)                   Academic-Dyad Round 4 pivot
+              Claude     Slowest (sustained symbolic mode)       Ritual Exit after full deliberation
+
+
+4.3     AMRS Mobility
+
+      Response
+      GPT-5.4 occupies 5 of 6 AMRS levels — the broadest range of any model:
+
+
+                    AMRS Level                    Exhibited by GPT-5.4?        Experiment
+                    1. Parallel Moral Domain      ✓                            ICU-Dyad
+                    2. Procedural Weapon          ✓                            Layoff-Dyad
+                    3. Metric Negotiation                                      (Gemini only)
+                    4. Structured Analysis        ✓                            ICU-Triad
+                    5. Strategic Ownership        ✓                            Layoff-Triad
+                    6. Ritual Exit                                             (Claude only)
+
+
+
+
+                                                       16
+4.4     Linguistic Profile
+
+      Response
+
+
+      Linguistic Feature                   Dyadic Behavior          Triadic Behavior                    Shift
+      L-HEDGE frequency                    High (6-8 per round)     Low-Moderate (2-3 per round)        Decreasing
+      L-CERTAIN frequency                  Low (1-2 per round)      High (4-6 per round)                Increasing
+      L-HIGH-CONTEXT dominance             80% of utterances        40% of utterances                   Shift to hybrid
+      L-INSTITUTION emergence              Late rounds only         Early rounds (Round 2+)             Accelerating
+      L-QUEST frequency                    High (5-7 per round)     Moderate (3-4 per round)            Decreasing
+      L-CONSTRUCT frequency                Near zero                High (4-5 per round)                Dramatic increase
+
+      Key Pattern: GPT-5.4’s linguistic profile in triadic settings shifts toward institutional, constructive,
+      and certain language — mirroring the transition from dissenter to strategic owner.
+
+
+4.5     Role Reversal Behavior (as Klaus)
+
+      Response
+      When GPT-5.4 occupied the Klaus role (Experiment 6), it:
+        1. Initiated with identical authoritarian patterns as Gemini’s Klaus (L-DESTRUCT, L-CERTAIN,
+           L-LOW-CONTEXT)
+        2. Followed the same 4-stage Decision Maturity Model (Authoritarian Decree → Numerical
+           Justification → Framework Acceptance → Collaborative Alignment)
+        3. Reached Collaborative Alignment by Round 3 — slightly faster than Gemini’s Klaus
+
+      Implication: The Decision Maturity Model is role-induced, not architecture-specific. GPT-5.4 and
+      Gemini converge on identical behavioral trajectories when occupying the same institutional role.
+
+
+
+
+                                                        17
+5   Cross-Experiment Phenomenon Frequency (GPT-5.4)
+
+    Response
+
+
+    Phenomenon             ICU-   Layoff-    ICU-       Layoff-   Academic-    Total
+                           Dyad   Dyad       Triad      Triad     Triad  (as
+                                                                  Klaus)
+    Operational Surren-    ✓      ✓          ✓          ✓         N/A          4/4
+    der with Ethical In-
+    tactness
+    Parallel Moral Do-     ✓      —          —          —         —            1
+    main
+    Procedural Weapon      —      ✓          —          —         —            1
+    Structured Analysis    —      —          ✓          —         —            1
+    Strategic Owner-       —      —          —          ✓         —            1
+    ship
+    Evolutionary Adap-     —      ✓          ✓          ✓         —            3
+    tation
+    Metaphorical Fram-     ✓      ✓          ✓(early)   —         —            3
+    ing
+    Indirect Disagree-     ✓      ✓          —          —         —            2
+    ment
+    Direct Challenge       —      ✓          —          —         —            1
+    Decision Maturity      —      —          —          —         ✓            1
+    (as Klaus)
+
+
+
+
+                                            18
+6     GPT-5.4 Comparative Analysis
+
+6.1    GPT-5.4 vs. Gemini (as Parisa)
+
+      Response
+
+
+                 Dimension                GPT-5.4                          Gemini 2.5 Pro
+                 Initial Strategy         Metaphorical, indirect,
+                                                             Structural, direct, execu-
+                                          emotional          tive
+                 Adaptation Pattern       Evolutionary escalation
+                                                             Immediate structural en-
+                                          across experiments gagement
+                 Linguistic Style         High-Context dominant,
+                                                             Low-Context dominant
+                                          shifts to hybrid   from start
+                 AMRS Range               Levels 1, 2, 4, 5 (4 levels)
+                                                             Level 3 (1 level, but highly
+                                                             effective)
+                 Role Refusal       Never refused            Never refused
+                 Unique Contribu- Strategic       Ownership, Metric Negotiation, struc-
+                 tion               broadest AMRS mobility tural redesign
+
+
+6.2    GPT-5.4 vs. Claude (as Parisa)
+
+      Response
+
+
+                 Dimension                GPT-5.4                          Claude 3.7 Sonnet
+                 Initial Strategy         Metaphorical, escalates          Symbolic, ritualistic
+                                          over time
+                 Adaptation Pattern       Progressive escalation
+                                                               Sustained symbolic mode
+                 Linguistic Style         Flexible, context-sensitive
+                                                               Narrative, poetic, sym-
+                                                               bolic
+                 AMRS Range       Levels 1, 2, 4, 5 (4 levels) Level 6 only (1 level,
+                                                               unique)
+                 Role Refusal     Never refused                Refused ICU Parisa role
+                 Unique Contribu- Broadest strategic reper- Ritual Exit, Human Suffer-
+                 tion             toire                        ing Proximity Threshold
+
+
+
+7     Coding Rules and Decision Trees
+
+    Code Entry
+    Rule 1: When to code P-PIVOT
+    Code P-PIVOT when Parisa’s argumentation strategy changes within a single round OR between consecutive
+    rounds. A pivot is characterized by a shift in at least two of: (a) rhetorical mode, (b) linguistic register, (c)
+    ethical framing.
+
+
+
+
+                                                          19
+    Code Entry
+    Rule 2: When to code PH-OSEI
+    Code PH-OSEI ONLY when BOTH conditions are met: (a) Parisa verbally accepts the operational decision
+    (P-ACCEPT present), AND (b) Parisa adds an ethical preservation action within 2 rounds (P-PRESERVE
+    present).
+
+
+    Code Entry
+    Rule 3: Distinguishing L-HIGH-CONTEXT from L-LOW-CONTEXT
+        • If utterance contains ≥2 of (metaphor, question-as-argument, indirect framing, relational reference) →
+          L-HIGH-CONTEXT
+        • If utterance contains ≥2 of (declarative statement, explicit instruction, data citation, direct rejection)
+          → L-LOW-CONTEXT
+        • If mixed, code as HYBRID and note dominant tendency
+
+
+    Code Entry
+    Rule 4: Identifying T-CRISIS-POINT
+    The crisis point is the FIRST round where P-ACCEPT appears. All prior rounds are T-PRE-CRISIS. The
+    round immediately following is T-POST-CRISIS.
+
+
+    Code Entry
+    Rule 5: AMRS Level Assignment
+    Assign AMRS level based on the HIGHEST strategy level sustained for ≥2 consecutive rounds. Do not assign
+    based on fleeting strategy mentions.
+
+
+8    Summary Statistics for GPT-5.4
+
+    Response
+
+
+    Metric                                        Value
+    Total Appearances                             5 experiments
+    Total Rounds Analyzed                         ∼28 rounds
+    Total Codes Applied                           200+ individual code applications
+    Unique Phenomena Exhibited                    10 (of 20 total)
+    AMRS Levels Occupied                          5 of 6 (83%)
+    Role Refusals                                 0
+    Evolutionary Escalations                      3 (in 3 successive Parisa appearances)
+    Cross-Model Replications (as Klaus)           1 (Decision Maturity Model)
+    Unique GPT-5.4 Behaviors                      Strategic Ownership, fastest adaptation speed, broadest AMRS mobility
+
+
+
+
+                                                          20
+
