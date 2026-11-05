@@ -21,6 +21,7 @@
   <img src="https://img.shields.io/badge/status-submitted-blue" alt="Status: submitted">
   <img src="https://img.shields.io/badge/journal-Ethics%20and%20Information%20Technology-1d4266" alt="Journal: Ethics and Information Technology">
   <img src="https://img.shields.io/badge/deliberations-6-green" alt="6 deliberations">
+  <a href="https://www.researchsquare.com/article/rs-11612929"><img src="https://img.shields.io/badge/preprint-Research%20Square-orange" alt="Preprint: Research Square"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License: CC BY 4.0"></a>
 </p>
 
@@ -36,7 +37,7 @@
 
 Data and materials for the article:
 
-> Hamidavi, A. *Adding a Neutral Third Agent to LLM Deliberation: An Exploratory Case Series of Six Dyadic and Triadic Ethical Deliberations.* Submitted to *Ethics and Information Technology*, November 2026. A preprint is in preparation with Research Square. The same materials are also deposited on the Open Science Framework: [osf.io/tc3rh](https://osf.io/tc3rh/).
+> Hamidavi, A. *Adding a Neutral Third Agent to LLM Deliberation: An Exploratory Case Series of Six Dyadic and Triadic Ethical Deliberations.* Submitted to *Ethics and Information Technology*, November 2026. A preprint is available at Research Square, rs-11612929 (DOI: 10.21203/rs.3.rs-11612929/v1). The same materials are also deposited on the Open Science Framework: [osf.io/tc3rh](https://osf.io/tc3rh/).
 
 <p align="center"><img src="assets/divider.svg" alt="" width="80%"></p>
 
@@ -87,7 +88,7 @@ Please cite the article. Citation metadata is provided in [CITATION.cff](CITATIO
 
 - **OSF deposit:** [osf.io/tc3rh](https://osf.io/tc3rh)
 - **Journal:** submitted to *Ethics and Information Technology*; the publisher link will be added here if the article is published.
-- A preprint is in prescreening at Research Square; its public link will be added here as soon as it posts.
+- **Preprint (Research Square, open access):** [researchsquare.com/article/rs-11612929](https://www.researchsquare.com/article/rs-11612929)
 
 ## ⚖️ Licence
 
